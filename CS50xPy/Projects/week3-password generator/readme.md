@@ -19,7 +19,9 @@ Do you want numbers in your password [y/n] ? : y
 Do you want symbols in your password [y/n] ? : n
 
 1st password is : aBcDeFgHiJ
+
 2nd password is : kLmNoPqRsT
+
 3rd password is : uVwXyZaBcD
 
 ## What I learned
