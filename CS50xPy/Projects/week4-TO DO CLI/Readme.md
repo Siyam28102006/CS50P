@@ -12,7 +12,7 @@ A command line task manager built in Python.
 - Prevents empty or whitespace-only tasks
 
 ## How to run
-python todo.py
+python Note Taker.py
 
 ## Example
 
