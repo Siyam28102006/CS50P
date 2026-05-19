@@ -45,4 +45,5 @@ def main():
         print(f"Your grade is : {grade(z,total_mark)}" )
     else:
         print("No subjects were given as input")
-main()
+if __name__ == "__main__":
+    main()

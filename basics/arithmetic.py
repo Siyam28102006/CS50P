@@ -1,20 +1,11 @@
-# +,-,/,*
-# % -> remainder
 
+def square(n):
+    return n*n
 
-# %% , ++,**,// ,-- all these mean integer division . normally korle just float division hobe(C er %g er moton)
-friends = 55
-friends+=2 # friends=friends +2
-print(friends)
-friends//=2 # this means integer division
-friends/=2 #this means float division
-print(friends)
-friends=friends%2
-print(friends)
-friends=friends*2
-print(friends)
-friends=friends-2
-print(friends)
+def main():
+    x=int(input("What's x ? "))
+    u=square(x)
+    print(u)
 
-friends=friends/2
-print(friends)
+if __name__=="__main__":
+    main()

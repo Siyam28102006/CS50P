@@ -38,8 +38,8 @@ def main():
                 print(f"{i+1}th password is : {password}")
         break
 
-main()
-
+if __name__ == "__main__":
+    main()
 
 
 

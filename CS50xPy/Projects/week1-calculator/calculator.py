@@ -1,3 +1,6 @@
+import sys
+
+
 def add(a,b):
     return a+b
 
@@ -19,7 +22,7 @@ def main():
         s = input("Enter operation : ")
 
         if s == "exit":
-            return
+            sys.exit()
 
         elif s != "exit":
             if z == 0:
@@ -64,4 +67,5 @@ def main():
 
 
 
-main()
+if __name__ == "__main__":
+    main()

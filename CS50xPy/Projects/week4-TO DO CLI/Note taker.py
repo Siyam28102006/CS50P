@@ -1,7 +1,7 @@
 import sys
 
 def show_menu():
-    print("-----MENU-----")
+    print("-----MENU-----\n")
     print("01 : Add task")
     print("02 : Delete task")
     print("03 : View Tasks")
@@ -13,13 +13,11 @@ def show_menu():
 def add_task(mylist,x): #1
     added=0
     for i in range(x):
-        while True:
             task=input(f"Enter a task {i+1}: ").strip()
             #Users might accidentally enter spaces. .strip() prevents ghost tasks from being added or failing to delete:
             if len(task)!=0:
                 mylist.append(task)
                 added+=1
-                break
             else : print("Please write something meaningful!!!")
     print(f"Total {added} tasks added newly!!")
 
