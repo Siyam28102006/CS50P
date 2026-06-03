@@ -50,7 +50,7 @@ def viewtasks(mylist):
 def load(filename):
     try:
         with open(f"{filename}.txt","r") as file:
-            readline=file.read().split("\n")
+            readline=file.read().splitlines()
             return readline
     except FileNotFoundError:
         print(f"No File Found named {filename}.txt!!!")
